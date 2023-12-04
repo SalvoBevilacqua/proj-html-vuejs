@@ -11,6 +11,30 @@ body {
 }
 
 .wrapper {
-    width: 60%;
+    width: 1200px;
     margin: 0 auto;
+}
+
+.ms_h1 {
+    font-size: 3.5rem;
+}
+
+.ms_color_green {
+    color: $colorJungleGreen;
+}
+
+.ms_color_violet {
+    color: $colorMulledWine;
+}
+
+.ms_bg_green {
+    background-color: $colorJungleGreen;
+}
+
+.ms_bg_violet {
+    background-color: $colorMulledWine;
+}
+
+.ms_bg_gallery {
+    background-color: $colorGallery;
 }
