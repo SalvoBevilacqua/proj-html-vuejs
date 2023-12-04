@@ -1,0 +1,16 @@
+@use "./partials/variables" as *;
+@import '@fontsource/ubuntu';
+@import "bootstrap/scss/bootstrap.scss";
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: $font;
+}
+
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
