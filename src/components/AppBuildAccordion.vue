@@ -1,4 +1,6 @@
 <script>
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 export default {
 
 }
@@ -8,7 +10,7 @@ export default {
     <div class="accordion border-0" id="accordionExample">
         <div class="accordion-item border-0 mt-5 shadow rounded">
             <h2 class="accordion-header" id="headingOne">
-                <button class="fw-bold text-white accordion-button" type="button" data-bs-toggle="collapse"
+                <button class="fw-bold accordion-button" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     Multiple Platforms Supported for Teaching & Studying
                 </button>
