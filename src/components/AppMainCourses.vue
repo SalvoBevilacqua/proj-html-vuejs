@@ -18,8 +18,8 @@ export default {
         <AppSectionTitle :Mono="store.titleSections[1].titleMono" :Purple="store.titleSections[1].titlePurple"
             :Green="store.titleSections[1].titleGreen" :class="'text-capitalize'" />
 
-        <div class="row row-cols-3">
-            <div class="col" v-for="(item, index) in store.coursesCardInfo" :key="index">
+        <div class="row row-cols-3 my-5">
+            <div class="col mb-4" v-for="(item, index) in store.coursesCardInfo" :key="index">
                 <AppMainCoursesCard :title="item.title" :name="item.name" :nameImg="item.nameImg" :img="item.img"
                     :price="item.price" :lessons="item.lessons" :students="item.students" />
             </div>
