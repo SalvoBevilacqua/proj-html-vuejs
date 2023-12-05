@@ -24,7 +24,7 @@ export default {
             <div>
                 <img :src="getImgUrl(nameImg)" class="ms_img rounded-circle" :alt="nameImg">
                 <span class="card-text text-secondary ms-3">{{ name }}</span>
-                <h5 class="card-title bold mt-3">{{ title }}</h5>
+                <h5 class="card-title fw-bold mt-3">{{ title }}</h5>
             </div>
 
             <div class="d-flex gap-3">
@@ -41,7 +41,7 @@ export default {
                 </div>
             </div>
 
-            <span class="text-white text-center py-2 position-absolute top-0 end-0 bold ms_badge">{{ price
+            <span class="text-white text-center py-2 position-absolute top-0 end-0 fw-bold ms_badge">{{ price
             }}</span>
 
         </div>

@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-    <div class="wrapper">
+    <div class="wrapper py-5">
         <div class="d-flex">
             <div style="width: 40%;">
                 <div class="w-75">
@@ -43,7 +43,7 @@ export default {
                 <img src="../assets/img/home-5-image-02.png" alt="image" class="ps-4">
             </div>
 
-            <div class="ms-5 border" style="width: 50%;">
+            <div class="ms-5" style="width: 50%;">
                 <div>
                     <AppSectionTitle :Mono="store.titleSections[3].titleMono" :Purple="store.titleSections[3].titlePurple"
                         :Green="store.titleSections[3].titleGreen" :class="'text-lowercase'" />

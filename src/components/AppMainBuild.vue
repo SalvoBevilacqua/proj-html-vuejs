@@ -1,7 +1,7 @@
 <script>
 import { store } from "../store.js";
-import AppBuildCard from "./AppBuildCard.vue";
-import AppBuildAccordion from "./AppBuildAccordion.vue";
+import AppMainBuildCard from "./AppMainBuildCard.vue";
+import AppMainBuildAccordion from "./AppMainBuildAccordion.vue";
 import AppSectionTitle from "./AppSectionTitle.vue";
 
 export default {
@@ -10,7 +10,7 @@ export default {
             store,
         };
     },
-    components: { AppBuildCard, AppBuildAccordion, AppSectionTitle }
+    components: { AppMainBuildCard, AppMainBuildAccordion, AppSectionTitle }
 }
 </script>
 
@@ -22,7 +22,7 @@ export default {
 
             <div class="row row-cols-4">
                 <div class="col" v-for="item in store.buildCardInfo" :key="item.title">
-                    <AppBuildCard :title="item.title" :img="item.img" :text="item.text" />
+                    <AppMainBuildCard :title="item.title" :img="item.img" :text="item.text" />
                 </div>
             </div>
 
@@ -36,7 +36,7 @@ export default {
                     <span class="h1 ms_h1 fw-bold ms_color_violet">Construct A </span>
                     <span class="ms_h1 ms_color_green fw-lighter">Stunning</span>
                     <span class="h1 ms_h1 fw-bold ms_color_violet"> Career Perspective</span>
-                    <AppBuildAccordion />
+                    <AppMainBuildAccordion />
                 </div>
             </div>
         </div>

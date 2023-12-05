@@ -137,5 +137,43 @@ export const store = reactive({
             students: "76"
         },
     ],
-    learnList: ["Select & customize courses to your preferences", "Change the tutor and make arrangements", "Partecipate in events to join others", "Get the desider certificate delivered at house"]
+    learnList: ["Select & customize courses to your preferences", "Change the tutor and make arrangements", "Partecipate in events to join others", "Get the desider certificate delivered at house"],
+    eventCardInfo: [
+        {
+            where: "Texas, US",
+            name: "Storytelling Workshop",
+            day: "22",
+            mth: "NOV",
+        },
+        {
+            where: "New York, US",
+            name: "Painting Art Contest 2020",
+            day: "10",
+            mth: "OCT",
+        },
+        {
+            where: "Hamburg, Germany",
+            name: "International Art Fair 2020",
+            day: "23",
+            mth: "NOV",
+        },
+        {
+            where: "Illinois, US",
+            name: "Street Performance: Call for Artist",
+            day: "15",
+            mth: "DEC",
+        },
+        {
+            where: "Illinois. US",
+            name: "Consumer Food Safety Education Conference",
+            day: "22",
+            mth: "JUL",
+        },
+        {
+            where: "Dubay",
+            name: "How meditation improve your mental health?",
+            day: "12",
+            mth: "AUG",
+        }
+    ]
 })
