@@ -24,6 +24,14 @@ export default {
                     :price="item.price" :lessons="item.lessons" :students="item.students" />
             </div>
         </div>
+
+        <div class="text-center">
+            <button type="button" class="btn btn-success fw-bold border-0 ms_button">
+                View all courses
+                <i class="fa-solid fa-arrow-right-long ms-2"></i>
+            </button>
+        </div>
+
     </div>
 </template>
 

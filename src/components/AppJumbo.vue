@@ -36,14 +36,5 @@ export default {
 
 #jumbo {
     background-color: $colorGallery;
-
-    .ms_button {
-        background-color: $colorJungleGreen;
-        padding: 1rem 2rem;
-
-        &:hover {
-            background-color: $colorMulledWine;
-        }
-    }
 }
 </style>

@@ -38,3 +38,12 @@ body {
 .ms_bg_gallery {
     background-color: $colorGallery;
 }
+
+.ms_button {
+    background-color: $colorJungleGreen;
+    padding: 1rem 2.5rem;
+
+    &:hover {
+        background-color: $colorMulledWine;
+    }
+}
