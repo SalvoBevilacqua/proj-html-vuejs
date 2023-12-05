@@ -34,8 +34,8 @@ export default {
                     <div class="d-flex align-items-baseline gap-4">
                         <i class="fa-regular fa-circle-user"></i>
                         <div class="position-relative">
-                            <input class="py-2 px-3 rounded border-0 bg-white" type="text" id="input"
-                                placeholder="Search...">
+                            <input class="py-2 px-3 rounded border-0 bg-white" type="text" v-model="store.stringToSearch"
+                                id="input" placeholder="Search...">
                             <i
                                 class="ms_glass ms_color_green fa-solid fa-magnifying-glass position-absolute top-50 translate-middle-y"></i>
                         </div>

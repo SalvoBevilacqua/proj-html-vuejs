@@ -1,6 +1,7 @@
 import { reactive } from "vue";
 
 export const store = reactive({
+    stringToSearch: "",
     headerList: ["Home", "Pages", "Courses", "Features", "Blog", "Shop"],
     buildCardInfo: [
         {
@@ -195,5 +196,8 @@ export const store = reactive({
             pos: "/ Private Tutor",
             img: "testimonial-avata-01.jpg"
         }
-    ]
+    ],
+    footerAddress: ["382 NE 191st ST # 87394 Miami, FL 33179-3899", "+1 (305) 547-9909 (9-am -5pm EST, Monday - Friday)", "support@maxcoach.com"],
+    footerExplore: ["Start here", "Blog", "About us", "Success story", "Courses", "Contact us"],
+    footerInfo: ["Membership", "Purchase guide", "Privacy policy", "Term os services"]
 })
