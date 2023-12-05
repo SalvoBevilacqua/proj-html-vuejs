@@ -137,4 +137,5 @@ export const store = reactive({
             students: "76"
         },
     ],
+    learnList: ["Select & customize courses to your preferences", "Change the tutor and make arrangements", "Partecipate in events to join others", "Get the desider certificate delivered at house"]
 })

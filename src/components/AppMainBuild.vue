@@ -18,7 +18,7 @@ export default {
     <div id="build">
         <div class="wrapper py-5">
             <AppSectionTitle :Mono="store.titleSections[0].titleMono" :Purple="store.titleSections[0].titlePurple"
-                :Green="store.titleSections[0].titleGreen" />
+                :Green="store.titleSections[0].titleGreen" :class_align="'text-center'" />
 
             <div class="row row-cols-4">
                 <div class="col" v-for="item in store.buildCardInfo" :key="item.title">
