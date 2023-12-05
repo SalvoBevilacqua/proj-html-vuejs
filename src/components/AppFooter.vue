@@ -27,7 +27,7 @@ export default {
                     </div>
                 </div>
 
-                <div class="d-flex gap-5">
+                <div class="d-flex gap-5 me-5 pe-5">
                     <div class="explore">
                         <div class="fw-bold">Explore</div>
                         <div class="d-flex gap-5">
