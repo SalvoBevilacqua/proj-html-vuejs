@@ -175,5 +175,25 @@ export const store = reactive({
             day: "12",
             mth: "AUG",
         }
+    ],
+    opinionsCardInfo: [
+        {
+            text: "I am free to learn at my own pace, follow my own schedule and choose the subject i like. Great study portal for people like me.",
+            name: "mina hollace",
+            pos: "/ Freelancer",
+            img: "testimonial-avata-02.jpg"
+        },
+        {
+            text: "MaxCoach is my best choise. Their tutors are smart and professional when dealing with students.",
+            name: "madley pondor",
+            pos: "/ IT Specialist",
+            img: "testimonial-avata-04.jpg"
+        },
+        {
+            text: "I am happy with their arrangement of lessons and subjects. They reflect a scientific investigation.",
+            name: "luvic dubble",
+            pos: "/ Private Tutor",
+            img: "testimonial-avata-01.jpg"
+        }
     ]
 })
