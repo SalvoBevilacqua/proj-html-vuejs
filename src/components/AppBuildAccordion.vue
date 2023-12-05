@@ -61,4 +61,18 @@ export default {
     </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@use "../style/partials/variables" as *;
+
+.accordion-header {
+    button {
+        background-color: #fefefe;
+
+        &:hover {
+            color: #fefefe;
+            background-color: $colorJungleGreen;
+        }
+    }
+
+}
+</style>
