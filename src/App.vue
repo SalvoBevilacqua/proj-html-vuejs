@@ -11,7 +11,9 @@ export default {
       store,
     }
   },
-  components: { AppHeader, AppMain, AppFooter, AppJumbo }
+  components: { AppHeader, AppMain, AppFooter, AppJumbo },
+  mounted() {
+  }
 }
 </script>
 

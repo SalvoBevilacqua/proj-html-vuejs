@@ -41,5 +41,100 @@ export const store = reactive({
             num: "100%",
             string: "satisfaction rate"
         },
-    ]
+    ],
+    titleSections: [
+        {
+            titleSec: "build",
+            titleMono: "start learning coding languages",
+            titlePurple: "build your dream today",
+            titleGreen: "today"
+        },
+        {
+            titleSec: "courses",
+            titleMono: "choose where you'd like to begin",
+            titlePurple: "latest featured",
+            titleGreen: "courses"
+        },
+        {
+            titleSec: "learn_one",
+            titleMono: "why hesitate to register?",
+            titlePurple: "learn at your own",
+            titleGreen: "pace"
+        },
+        {
+            titleSec: "learn_two",
+            titleMono: "what are you looking for?",
+            titlePurple: "learn on your",
+            titleGreen: "mobile"
+        },
+        {
+            titleSec: "event",
+            titleMono: "get in contact now",
+            titlePurple: "upcoming",
+            titleGreen: "events"
+        },
+        {
+            titleSec: "opinions",
+            titleMono: "people are praising maxcoach",
+            titlePurple: "what make they",
+            titleGreen: "love us?"
+        }
+    ],
+    coursesCardInfo: [
+        {
+            title: "Learning to Write as a Professional Author",
+            name: "Blanche Fields",
+            nameImg: "73ee246daf47502812ccefc84bf02898.jpeg",
+            img: "course-02-480x298.jpg",
+            price: "$40.00",
+            lessons: "20",
+            students: "50"
+
+        },
+        {
+            title: "Customer-centric Info-Tech Strategies",
+            name: "Maggie Strickland",
+            nameImg: "d0d504142acfde820eef2f11feea6253.jpeg",
+            img: "stock-full-hd-03-480x298.jpg",
+            price: "Free",
+            lessons: "24",
+            students: "769"
+        },
+        {
+            title: "Opening Programming Courses for Everyone: Python",
+            name: "Maggie Strickland",
+            nameImg: "d0d504142acfde820eef2f11feea6253.jpeg",
+            img: "stock-full-hd-04-480x298.jpg",
+            price: "$19.00",
+            lessons: "17",
+            students: "62"
+        },
+        {
+            title: "Academic Listening and Note-taking",
+            name: "Blanche Fields",
+            nameImg: "73ee246daf47502812ccefc84bf02898.jpeg",
+            img: "stock-full-hd-06-480x298.jpg",
+            price: "$26.00",
+            lessons: "14",
+            students: "67"
+        },
+        {
+            title: "Master jQuery in a short Period of Time",
+            name: "Blanche Fields",
+            nameImg: "73ee246daf47502812ccefc84bf02898.jpeg",
+            img: "course-featured-image-01-480x298.jpg",
+            price: "$39.00",
+            lessons: "6",
+            students: "51"
+        },
+        {
+            title: "Introducing to Javascript for Beginners",
+            name: "Blanche Fields",
+            nameImg: "73ee246daf47502812ccefc84bf02898.jpeg",
+            img: "stock-full-hd-05-480x298.jpg",
+            price: "$59.00",
+            lessons: "14",
+            students: "76"
+        },
+    ],
 })

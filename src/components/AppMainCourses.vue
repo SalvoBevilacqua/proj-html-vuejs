@@ -1,16 +1,29 @@
 <script>
+import { store } from "../store.js";
+import AppSectionTitle from "./AppSectionTitle.vue";
+import AppMainCoursesCard from "./AppMainCoursesCard.vue";
+
 export default {
     data() {
         return {
-
-        }
-    }
+            store,
+        };
+    },
+    components: { AppSectionTitle, AppMainCoursesCard }
 }
 </script>
 
 <template>
-    <div class="wrapper d-flex">
-        <div class="courses_card">courses</div>
+    <div class="wrapper py-5">
+        <AppSectionTitle :Mono="store.titleSections[1].titleMono" :Purple="store.titleSections[1].titlePurple"
+            :Green="store.titleSections[1].titleGreen" :class="'text-capitalize'" />
+
+        <div class="row row-cols-3">
+            <div class="col" v-for="(item, index) in store.coursesCardInfo" :key="index">
+                <AppMainCoursesCard :title="item.title" :name="item.name" :nameImg="item.nameImg" :img="item.img"
+                    :price="item.price" :lessons="item.lessons" :students="item.students" />
+            </div>
+        </div>
     </div>
 </template>
 
