@@ -47,37 +47,37 @@ export const store = reactive({
         {
             titleSec: "build",
             titleMono: "start learning coding languages",
-            titlePurple: "build your dream today",
+            titlePurple: "Build Your Dream",
             titleGreen: "today"
         },
         {
             titleSec: "courses",
             titleMono: "choose where you'd like to begin",
-            titlePurple: "latest featured",
+            titlePurple: "Latest Featured",
             titleGreen: "courses"
         },
         {
             titleSec: "learn_one",
             titleMono: "why hesitate to register?",
-            titlePurple: "learn at your own",
-            titleGreen: "pace"
+            titlePurple: "Learn at your own",
+            titleGreen: "Pace"
         },
         {
             titleSec: "learn_two",
             titleMono: "what are you looking for?",
-            titlePurple: "learn on your",
+            titlePurple: "Learn on your",
             titleGreen: "mobile"
         },
         {
             titleSec: "event",
             titleMono: "get in contact now",
-            titlePurple: "upcoming",
-            titleGreen: "events"
+            titlePurple: "Upcoming",
+            titleGreen: "Events"
         },
         {
             titleSec: "opinions",
             titleMono: "people are praising maxcoach",
-            titlePurple: "what make they",
+            titlePurple: "What make they",
             titleGreen: "love us?"
         }
     ],

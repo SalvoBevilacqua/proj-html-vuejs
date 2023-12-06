@@ -17,7 +17,7 @@ export default {
 </script>
 
 <template>
-    <div class="ms_bg_gallery p-5">
+    <div class="ms_bg_op p-5">
         <div class="wrapper my-5">
             <AppSectionTitle :Mono="store.titleSections[5].titleMono" :Purple="store.titleSections[5].titlePurple"
                 :Green="store.titleSections[5].titleGreen" :class_align="'text-center'" />
@@ -42,9 +42,10 @@ export default {
                 <i class="fa-solid fa-circle fa-2xs text-secondary ms-3 my-5"></i>
             </div>
 
-            <div class="ms_color_violet text-center fs-2 fw-bold my-5">
-                <span>Start today for getting <span class="ms_color_green fw-normal">Online Certification</span></span>
-                <p>You can be your own guiding star with our help!</p>
+            <div class="ms_color_violet text-center fw-bold my-5">
+                <span class="fs-4">Start today for getting <span class="ms_color_green fw-normal">Online
+                        Certification</span></span>
+                <p class="fs-2">You can be your own guiding star with our help!</p>
             </div>
 
             <div class="text-center my-5">
@@ -57,6 +58,12 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "../style/partials/variables" as *;
+
+.ms_bg_op {
+    background-color: $colorEventCard;
+}
+
 .ms_margin {
     margin-top: 7rem;
 }

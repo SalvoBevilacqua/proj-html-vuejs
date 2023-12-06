@@ -50,9 +50,7 @@ export default {
 @use "../style/partials/variables" as *;
 
 #head {
-    background-color: $colorGallery;
-
-
+    background-color: $colorLightGrey;
 
     img {
         width: 150px;
@@ -68,8 +66,6 @@ export default {
                 margin-left: .3rem;
             }
         }
-
-
     }
 
     input {

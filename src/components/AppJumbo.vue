@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <div id="jumbo">
+    <div id="jumbo" class="py-5">
         <div class="wrapper py-5 d-flex align-items-center">
             <div class="w-50">
                 <h1 class="ms_h1 ms_color_violet w-75 fw-bold">Complete Your Dreams in JavaS Programming</h1>
@@ -24,6 +24,7 @@ export default {
                     Download free E-book
                 </button>
             </div>
+
             <div class="w-50">
                 <img src="../assets/img/home-5-hero-image.png" alt="image" class="float-end">
             </div>
@@ -35,6 +36,6 @@ export default {
 @use "../style/partials/variables" as *;
 
 #jumbo {
-    background-color: $colorGallery;
+    background-color: $colorLightGrey;
 }
 </style>
