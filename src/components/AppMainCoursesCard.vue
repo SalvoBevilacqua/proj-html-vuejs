@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-    <div class="card border-0 h-100 position-relative">
+    <div class="card border-0 h-100 position-relative bg-transparent">
         <img :src="getImgUrl(img)" class="card-img-top" :alt="img">
         <div class="card-body p-4 d-flex flex-column justify-content-between gap-3">
             <div>
@@ -50,6 +50,13 @@ export default {
 
 <style scoped lang="scss">
 @use "../style/partials/variables" as *;
+
+.card {
+    &:hover {
+        background-color: white !important;
+        box-shadow: 1px 1px 50px 6px rgb(221, 221, 221);
+    }
+}
 
 .ms_badge {
     background-color: $colorJungleGreen;
