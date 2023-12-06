@@ -63,6 +63,7 @@ export default {
             </div>
             <div class=" mt-5 text-center text-secondary">&copy; 2020 Maxcoach. All Rights Reserved</div>
         </div>
+
         <a href="#head">
             <i class="ms_up fa-solid fa-arrow-up-long position-absolute ms_bg_green text-white rounded-circle"></i>
         </a>
