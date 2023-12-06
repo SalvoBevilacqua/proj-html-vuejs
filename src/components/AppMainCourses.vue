@@ -38,6 +38,6 @@ export default {
 
 <style lang="scss" scoped>
 .courses {
-    background-image: linear-gradient(to bottom, #f7f7f7 0%, #f7f7f7 100%);
+    background-image: linear-gradient(top to bottom, #f7f7f7 0%, #f7f7f7 100%);
 }
 </style>
