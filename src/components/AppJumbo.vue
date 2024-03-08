@@ -46,7 +46,7 @@ export default {
 #jumbo::before {
     content: "";
     position: absolute;
-    bottom: 10%;
+    bottom: 8.7%;
     height: 500px;
     width: 100%;
     background-image: url(../assets/img/jumbo-overlay.svg);
